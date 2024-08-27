@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: rgb(144, 253, 255);
+    background: linear-gradient(90deg, rgba(144, 253, 255, 1) 0%, rgba(214, 192, 255, 1) 100%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+}
+
+.title h1 {
+    font-size: 50px;
+}
+
+.stage {
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.stage-item {
+    font-size: 50px;
+    font-weight: 600;
+    color : black;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1),
+        inset 0 2px 8px rgba(255, 255, 255, 0.2);
+
+
+}
+.reset{
+    padding: 15px;
+    font-size: 16px;
+    margin:10px auto;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    border : none;
+    cursor: pointer;
+
+}
+.win-msg p{
+    margin: 10px auto;
+    color: rgb(255, 21, 21);
+    font-size: 30px;
+}
